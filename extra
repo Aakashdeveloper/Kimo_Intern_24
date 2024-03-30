@@ -29,3 +29,22 @@ Python + Flask
 Html > Wrapper of the complete website
 Head > Help to link css, javascript 
 Body > What all visible to users
+
+/////
+Block Level
+> Always start from new line
+> Always qccupies the complete width
+> p div header
+
+Inline
+> start in same line
+> only take space what is required
+> a span img
+
+Name
+Image
+Something about you
+Skills
+Hobbies
+Map
+social links
