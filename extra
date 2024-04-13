@@ -51,3 +51,49 @@ Map
 social links
 
 https://raw.githubusercontent.com/Aakashdeveloper/Aakashdeveloper/master/README.md
+
+///////////CSS//////
+inline > styleTag > stylesheet
+
+inline
+{
+    background-color:red;
+    font-size:30px
+}
+
+styleTag
+{
+    background-color:green;
+    border:2px;
+    color:orange
+}
+
+stylesheet{
+    font-size:40px;
+    border:3px;
+    margin:10px
+}
+
+{
+    background-color:red;
+    font-size:30px;
+    border:2px;
+    color:orange;
+    margin:10px
+}
+
+
+https://htmlcolorcodes.com/
+
+tagname
+> to target element by tag
+
+classname
+> to target multiple element with same property
+> .
+> one tag can have multiple class
+
+id
+> to target something  unique
+> #
+> one tag can have only 1 id
