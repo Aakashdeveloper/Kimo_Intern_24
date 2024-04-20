@@ -97,3 +97,7 @@ id
 > to target something  unique
 > #
 > one tag can have only 1 id
+
+
+position:absolute
+position:relative
