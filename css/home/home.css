@@ -46,6 +46,31 @@ header{
     margin-top:2%;
     position: absolute;
     font-size: 90px;
+    animation:revolve 10s infinite
+}
+
+@keyframes revolve {
+    0%{
+        margin-left: 2%;
+        transform: rotate(30deg);
+    }
+    25%{
+        margin-left: 20%;
+        transform: rotate(90deg);
+    }
+    50%{
+        margin-left: 40%;
+        transform: rotate(180deg);
+    }
+    75%{
+        margin-left: 80%;
+        transform: rotate(270deg);
+    }
+    100%{
+        margin-left: 40%;
+        transform: rotate(360deg);
+    }
+    
 }
 
 .logo>span{
@@ -121,6 +146,28 @@ select{
     margin-left: 2%;
     display: flex;
     box-shadow: 10px 20px 10px #280b28;
+    animation: dance 10s infinite;
+}
+
+@keyframes dance{
+    0%{
+        transform: rotate(-5deg);
+    }
+    25%{
+        transform: rotate(0deg);
+    }
+    40%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: rotate(5deg);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-5deg);
+    }
 }
 
 .tileComponent1{
@@ -136,6 +183,14 @@ select{
     width:45%;
     margin-left: 3%;
     margin-top: 15%;
+
+}
+
+.tileContainer:hover{
+    transform: scale(1.1);
+    /* transform: skewx(40deg); */
+    /* transform:rotate(180deg) */
+    /* transform: translate(100px, 200px); */
 }
 
 .compHeading{
@@ -147,6 +202,9 @@ select{
     font-size: 20px;
     color:gray
 }
+
+/*** Footer CSS**/
+
 footer{
     /* border:5px dashed orange; */
     text-align: center;
@@ -171,3 +229,56 @@ ul{
 .noBorder{
     border:none
 }
+
+@media screen and (max-width:1600px) {
+   body{
+       background-color: skyblue;
+   } 
+}
+
+@media screen and (max-width:1400px) {
+    body{
+        background-color: rgb(154, 232, 215);
+    } 
+ }
+
+ @media screen and (max-width:1200px) {
+    body{
+        background-color: rgb(154, 232, 167);
+    } 
+ }
+
+ @media screen and (max-width:1100px) {
+    body{
+        background-color: rgb(198, 232, 154);
+    } 
+ }
+
+ @media screen and (max-width:1000px) {
+    body{
+        background-color: rgb(232, 154, 162);
+    } 
+    .tileContainer{
+        width: 45%
+    }
+ }
+
+
+ @media screen and (max-width:800px) {
+    body{
+        background-color: rgb(174, 154, 232);
+    } 
+    .tileContainer{
+        width: 45%
+    }
+ }
+
+
+ @media screen and (max-width:700px) {
+    body{
+        background-color: rgb(232, 154, 214);
+    } 
+    .tileContainer{
+        width: 90%
+    }
+ }
