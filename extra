@@ -119,3 +119,24 @@ https://forms.gle/EAA1Z1Fi7Xh3KGeX9
 
 3,4,5
 
+# bootstrap 3
+xs < 768px
+sm > 768px
+md > 992px
+lg > 1200px
+
+
+# bootstrap 4
+col < 576px
+sm > 576px
+md > 768px
+lg > 992px
+xl > 1200px
+
+# bootstrap 4
+col < 576px
+sm > 576px
+md > 768px
+lg > 992px
+xl > 1200px
+xxl > 1400px

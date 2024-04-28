@@ -1,3 +1,47 @@
 .red{
     background-color: purple !important;
 }
+
+.imgSlider{
+    width:100%;
+    height:300px !important
+}
+
+.edit{
+    font-size:30px;
+    color:green
+}
+
+.delete{
+    font-size:30px;
+    color:red
+}
+
+#first{
+    height:200px;
+    background-color: aquamarine;
+}
+#second{
+    height:200px;
+    background-color: rgb(255, 197, 127);
+}
+#third{
+    height:200px;
+    background-color: rgb(155, 255, 127);
+}
+#fourth{
+    height:200px;
+    background-color: rgb(127, 185, 255);
+}
+#fifth{
+    height:200px;
+    background-color: rgb(161, 127, 255);
+}
+#six{
+    height:200px;
+    background-color: rgb(240, 127, 255);
+}
+#seven{
+    height:200px;
+    background-color: rgb(255, 127, 170);
+}
