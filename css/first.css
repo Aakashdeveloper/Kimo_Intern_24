@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+#brown{
+    background-color:#c0ae9e
+}
+.card{
+    height:400px;
+    background-color:#c2a59f;
+    width:18%;
+    float: left;
+    margin-left:4%;
+    padding:1%;
+    overflow: scroll;
+}
+#flatcard{
+    height: 300px;
+    width:80%;
+    margin-left:10%;
+}
+.myblue{
+    background-color:#6eb1e0
+}
+
+.card img{
+    width:100%;height:200px
+}
