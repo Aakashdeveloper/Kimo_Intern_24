@@ -282,3 +282,13 @@ ul{
         width: 90%
     }
  }
+
+ .coupon{
+     height:300px;
+     background-color: green;
+     width:400px;
+     position: absolute;
+     margin-top: -30%;
+     margin-left: 40%;
+     display: none;
+ }

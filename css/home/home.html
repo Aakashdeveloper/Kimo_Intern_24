@@ -1,6 +1,7 @@
 <html>
     <head>
         <link href="home.css" rel="stylesheet"/>
+        <script src="home.js"></script>
     </head>
     <body>
         <header>
@@ -39,6 +40,9 @@
                     <option>Pret A Manager</option>
                 </select>
            </div>
+        </div>
+        <div class="coupon">
+            <button onClick="closeCoupon()">&times;</button>
         </div>
          <!--Quick Search Section-->
         <div id="quickSearch">
@@ -153,5 +157,8 @@
 
 
         </footer>
+        <script>
+            window.onload=loadCoupon()
+        </script>
     </body>
 </html>
