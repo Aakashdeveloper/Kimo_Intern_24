@@ -69,3 +69,16 @@ uname.trim()
 'Nikita'
 uname.trim().length
 6
+city
+(5) ['Venice', 'Mumbai', 'Delhi', 'London', 'Amsterdam']
+46Third-party cookie will be blocked. Learn more in the Issues tab.
+city.slice(1)
+(4) ['Mumbai', 'Delhi', 'London', 'Amsterdam']
+city.slice(2)
+(3) ['Delhi', 'London', 'Amsterdam']
+city.slice(2,4)
+(2) ['Delhi', 'London']
+city
+(5) ['Venice', 'Mumbai', 'Delhi', 'London', 'Amsterdam']
+
+splice(indexNumber,deleteCount, values)
