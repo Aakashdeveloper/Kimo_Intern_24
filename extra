@@ -141,9 +141,20 @@ xl > 1200px
 xxl > 1400px
 
 
-geolocation
-forms
+package.json
+> Entry point to the app
+> Command to start,build,test
+> package used for app
+> meta data
 
+//step to generate package.json
+> open terminal
+> go inside the folder
+> npm init
+> Answer all question
+> type "yes"
 
-
-
+//step to install packages
+> open terminal
+> go inside the folder
+> npm i packagename
