@@ -1,0 +1,15 @@
+{
+  "name": "inbuilt",
+  "version": "1.0.0",
+  "description": "this is about npm",
+  "main": "fs.js",
+  "scripts": {
+    "start": "node staticapi.js",
+    "abc":"nodemon http.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "developerfunnel",
+  "license": "ISC"
+}

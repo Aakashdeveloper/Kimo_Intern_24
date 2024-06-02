@@ -158,3 +158,27 @@ package.json
 > open terminal
 > go inside the folder
 > npm i packagename
+
+only those dependencey used for 
+start the app
+build the
+go global
+
+///step to install global dependency 
+> open cmd as admin
+> npm i -g nodemon
+
+C > Create > POST
+R > Read   > GET
+U > Update > PUT
+D > Delete > DELETE
+
+https://www.mongodb.com/lp/cloud/atlas/try4?utm_content=rlsavisitor&utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_general_retarget-brand_gic-null_apac-all_ps-all_desktop_eng_lead&utm_term=cloud%20mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=14412646479&adgroup=131761130852&cq_cmp=14412646479&gad_source=1&gclid=Cj0KCQjwsPCyBhD4ARIsAPaaRf0tuYNf-Fnp7AuE-Mwb2MHpVHbmHCJlNd__ZcfOCSPUeDEkVmDuocQaAignEALw_wcB
+
+create cluster
+> Shared
+> aws > Mumbai
+> Cluster Tier > M0 Sandbox
+> create cluster
+
+https://cloud.mongodb.com/
