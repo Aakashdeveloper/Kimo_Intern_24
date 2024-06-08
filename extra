@@ -108,8 +108,8 @@ https://forms.gle/EAA1Z1Fi7Xh3KGeX9
 
 
 15May > submmission for homepage
-
 25May > Javascript
+
 15June > Nodejs
 7July > React
 13-14> off
@@ -182,3 +182,44 @@ create cluster
 > create cluster
 
 https://cloud.mongodb.com/
+https://imgbb.com/
+
+/////////////////////
+Sql            MongoDb
+Structured     Structured/unStructured
+database       database
+table          collection
+row            document
+select         find
+insert         insert
+update         update
+delete         remove/delete
+
+
+
+id | Hindi | English
+ 1 |   80  |   
+ 2 |       |   90
+ 3 |   95  |
+
+[
+ {
+     "id":1,
+     "hindi":80
+ },
+ {
+     "id":2,
+     "english":90
+ },
+ {
+     "id":3,
+     "hindi":95
+ }
+
+]
+
+
+_id object id
+> primary key
+> unique
+> 12 bytes
