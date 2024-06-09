@@ -218,8 +218,20 @@ id | Hindi | English
 
 ]
 
-
 _id object id
 > primary key
 > unique
 > 12 bytes
+
+
+param
+> what we pass after /
+> we should use to pass other or 2 params
+> we need to define in url
+> req.params.id
+
+queryparam
+> what we pass after ?
+> we can pass multiple params
+> no need to define
+> req.query.id

@@ -1,0 +1,6 @@
+//find
+db.dashboard.find()
+
+//find with condition
+db.restaurants.find({state_id:1})
+db.restaurants.find({state_id:1,cost:450})

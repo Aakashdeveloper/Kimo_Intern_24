@@ -2,12 +2,20 @@ Zomapp
 
 // Page 1
 > List of city (GET)
+* http://localhost:9110/location
+
 > List of Restaurant (GET)
+* http://localhost:9110/restaurants
+
 > Rest wrt to city (GET)
+* http://localhost:9110/restaurants?stateId=1
+
 > Quick Search (GET)
+* http://localhost:9110/mealType
 
 // Page 2
 > Rest wrt to meal (GET)
+* http://localhost:9110/restaurants?mealId=1
 
 > Rest wrt to meal + cuisine (GET)
 
