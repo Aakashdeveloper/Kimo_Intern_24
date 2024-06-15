@@ -4,3 +4,10 @@ db.dashboard.find()
 //find with condition
 db.restaurants.find({state_id:1})
 db.restaurants.find({state_id:1,cost:450})
+
+
+db.orders.insert({"_id":1,name:"test1"})
+
+db.orders.update({"orderId":3},{$set:{"status":"Delivered"}})
+
+db.orders.delete({"orderId":3})

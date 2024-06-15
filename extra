@@ -3,6 +3,7 @@ https://git-scm.com/downloads > install
 https://nodejs.org/en > Install
 https://github.com/ > Create Account
 https://github.com/Aakashdeveloper > Follow
+https://www.postman.com/ > Install
 
 //extensions
 vscode-icons
@@ -110,7 +111,7 @@ https://forms.gle/EAA1Z1Fi7Xh3KGeX9
 15May > submmission for homepage
 25May > Javascript
 
-15June > Nodejs
+16June > Nodejs
 7July > React
 13-14> off
 28July > Python
@@ -235,3 +236,13 @@ queryparam
 > we can pass multiple params
 > no need to define
 > req.query.id
+
+
+//mongod --config /usr/local/etc/mongod.conf --fork
+
+/////step to generate react app
+> open cmd as admininstator
+* npm i -g create-react-app
+
+> open terminal and go inside folder
+* create-react-app appname
