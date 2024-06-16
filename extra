@@ -246,3 +246,9 @@ queryparam
 
 > open terminal and go inside folder
 * create-react-app appname
+
+state
+> act like a local variable in each component
+> any data interaction will happen through state
+> we can update the value of state
+> with every state change component will rerender
