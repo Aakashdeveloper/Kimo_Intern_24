@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
 import Header from './Header';
 import './App.css';
 
@@ -14,6 +14,10 @@ const App = () => {
     const handleClick1 = () => {
         setCount1(count1+1)
     }
+
+    useEffect(() => {
+        console.log('calling>>>>>>')
+    },[count1])
 
     console.log("render>>>>>>")
 

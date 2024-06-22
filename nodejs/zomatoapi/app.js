@@ -2,9 +2,11 @@ let express = require('express');
 let app = express();
 let Mongo = require('mongodb')
 let port = 9110;
+let cors = require('cors')
 let {dbConnect,getData,postData, updateData,deleteData} = require('./controller/dbContoller');
 
 app.use(express.json())
+app.use(cors())
 
 app.get('/',(req,res) => {
     res.send("Hii From Express")

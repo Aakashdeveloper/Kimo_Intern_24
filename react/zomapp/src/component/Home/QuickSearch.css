@@ -1,0 +1,95 @@
+
+#quickSearch{
+    /* height:600px; */
+    /* border: 10px double red; */
+    width:80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.quickHeading{
+    font-size:30px;
+    color:#3b2632;
+    display: block;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2%;
+
+}
+.quickSubHeading{
+    font-size:20px;
+    line-height: 2;
+    color:gray;
+    margin-left: 2%;
+    display: block;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#tileBox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tileContainer{
+    height:180px;
+    width:30%;
+    margin-top: 3%;
+    margin-left: 2%;
+    display: flex;
+    box-shadow: 10px 20px 10px #280b28;
+    animation: dance 10s infinite;
+}
+
+@keyframes dance{
+    0%{
+        transform: rotate(-5deg);
+    }
+    25%{
+        transform: rotate(0deg);
+    }
+    40%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: rotate(5deg);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-5deg);
+    }
+}
+
+.tileComponent1{
+    width:52%;
+}
+
+.tileComponent1>img{
+    width:100%;
+    height:100%
+}
+
+.tileComponent2{
+    width:45%;
+    margin-left: 3%;
+    margin-top: 15%;
+
+}
+
+.tileContainer:hover{
+    transform: scale(1.1);
+    /* transform: skewx(40deg); */
+    /* transform:rotate(180deg) */
+    /* transform: translate(100px, 200px); */
+}
+
+.compHeading{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.compSubHeading{
+    font-size: 20px;
+    color:gray
+}
