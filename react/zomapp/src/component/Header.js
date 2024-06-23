@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import {Link} from 'react-router-dom'
 
 const Header = () => {
     return(
@@ -7,9 +8,11 @@ const Header = () => {
             <header>
                 <div id="brand">
                     Developer Funnel
+                    <Link to='/' className='btn btn-primary'> Home </Link>
                 </div>
+               
                 <div id="social">
-                    <a href="">
+                    {/* <>
                         <img src="https://i.ibb.co/bsXv4bf/facebook.png" alt="fblogo" className="socialIcon"/>
                     </a>
                     <a href="">
@@ -17,7 +20,7 @@ const Header = () => {
                     </a>
                     <a href="">
                         <img src="https://i.ibb.co/w07K2Vn/youtube1.png" alt="fblogo" className="socialIcon"/>
-                    </a>
+                    </a> */}
                 </div>
             </header>
         </>

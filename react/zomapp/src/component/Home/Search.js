@@ -21,7 +21,7 @@ const Search = () => {
         if(data){
             return data.map((item) => {
                 return(
-                    <option key={item.id} value={item.state_id}>
+                    <option key={item._id} value={item.state_id}>
                         {item.state}
                     </option>
                 )
@@ -53,13 +53,13 @@ const Search = () => {
     return(
         <>
             <div id="search">
-                <div class="logo">
+                <div className="logo">
                     <span>D!</span>
                 </div>
                 <div id="heading">
                     Find Best Place Near You
                 </div>
-                <div class="dropdown">
+                <div className="dropdown">
                     <select onChange={handleCity}>
                         <option>----SELECT YOUR CITY-----</option>
                         {renderCity(location)}
