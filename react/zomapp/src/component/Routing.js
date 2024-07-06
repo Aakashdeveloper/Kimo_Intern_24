@@ -6,6 +6,7 @@ import Main from './main';
 import Listing from './listing/listingComponent';
 import DetailDisplay from './details/detailLogic';
 import PlaceOrder from './Orders/PlaceOrder';
+import ViewOrder from './Orders/ViewOrder'
 
 const Routing = () => {
     return(
@@ -18,6 +19,7 @@ const Routing = () => {
                         <Route path="listing/:mealId" element={<Listing/>}/>
                         <Route path="details" element={<DetailDisplay/>}/>
                         <Route path="placeOrder/:restName" element={<PlaceOrder/>}/>
+                        <Route path="viewOrder" element={<ViewOrder/>}/>
                     </Route>
                 </Routes>
             </Router>

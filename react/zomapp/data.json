@@ -1,0 +1,24 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "rest_name": "AMA Cafe",
+      "orderId": "SIO603753",
+      "name": "Nikita",
+      "email": "nikki@gmail.com",
+      "cost": 1995,
+      "phone": "987654312",
+      "address": "Hno 12 Sec34 Noida"
+    },
+    {
+      "id": 2,
+      "rest_name": "Burger King",
+      "orderId": "SIO829639",
+      "name": "Nikita",
+      "email": "nikki@gmail.com",
+      "cost": 1829,
+      "phone": "987654312",
+      "address": "Hno 12 Sec34 Noida"
+    }
+  ]
+}

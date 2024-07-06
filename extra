@@ -272,3 +272,7 @@ state
 (get) allorder>            
        
 (get) restaurants>         http://3.17.216.66:4000/restaurants
+
+npm i -g  json-server
+
+json-server --watch data.json --port 9811

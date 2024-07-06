@@ -1,20 +1,21 @@
 import React,{useState} from 'react';
 import {useParams,useNavigate} from 'react-router-dom';
 
-
+const orderUrl = "http://localhost:9811/orders"
 
 const PlaceOrder = ( ) => {
 
     let params = useParams();
+    let navigate = useNavigate()
 
     const initialValues = {
         id:Math.floor(Math.random()),
         rest_name: params.restName,
         orderId:`SIO${Math.floor(Math.random()*(1209900-49100)+49100)}`,
-        name:'',
-        email:'',
+        name:'Nikita',
+        email:'nikki@gmail.com',
         cost:Math.floor(Math.random()*(2000-400)+400),
-        phone:'',
+        phone:'987654312',
         address:'Hno 12 Sec34 Noida'
     }
 
@@ -32,6 +33,15 @@ const PlaceOrder = ( ) => {
 
     const checkout = () => {
         console.log(values)
+        fetch(orderUrl,{
+            method:'POST',
+            headers:{
+                'accept':'application/json',
+                'Content-Type':'application/json'
+            },
+            body:JSON.stringify(values)
+        })
+        .then(navigate('/viewOrder'))
 
     }
 
