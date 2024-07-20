@@ -38,7 +38,23 @@ router.post('/login',async(req,res) => {
         let token = jwt.sign({id:data._id},config.secret,{expiresIn:86400})
         res.send({auth:true,token:token})
     }
+});
+
+//userInfo
+router.get('/userInfo',(req,res) => {
+    let token = req.headers['x-access-token'];
+    if(!token) return res.status(201).send({auth:false,token:'No Token Provided'});
+    jwt.verify(token,config.secret,async (err,data) => {
+        if(err) return res.status(201).send({auth:false,token:'Invalid Token Provided'});
+        let output = await User.findById(data.id)
+        res.send(output)
+    })
 })
 
 
 module.exports = router
+
+
+//eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OGEzYWY0ODI3ODc4NzQyNGUwMWE5YyIsImlhdCI6MTcyMTQ1NTUyMiwiZXhwIjoxNzIxNTQxOTIyfQ.pvbAFbJVghtTiBKe3VFE5rc15PgHiPIJYtVHEsNOX-k
+
+//eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OGEzYTQxMTRhZWNkOWRlZmY4ZmY1NSIsImlhdCI6MTcyMTQ1NDcyNiwiZXhwIjoxNzIxNTQxMTI2fQ.YM-j-KIC-Y0LY2mwtTopyT8wsAXHTdDgJsF1jWzGWBw
