@@ -5,6 +5,9 @@ dictionaries = {"name":"John","age":10}
 
 #List > mutable collections of items
 #tuple > immutable collections of items
+#set>mutable collection of unique item
+'''dict > unordered,mutable collection of key-value pair
+key must be unique'''
 
 
 List  = ["apple","mango","banana"]
@@ -58,3 +61,42 @@ mixed_tuple = (1,'hii',0.3)
 (1, 2, 3, 4, 5, 'a', 'b', 'c')
 >>> len(numbers)
 5
+
+>>> mySet = {1,2,3,'a','b','c'}
+>>> mySet.add('test')
+>>> mySet
+{1, 2, 3, 'c', 'test', 'a', 'b'}
+>>> mySet.add(9)
+>>> mySet
+{1, 2, 3, 'c', 'test', 'a', 9, 'b'}
+>>> mySet.add('aa')
+>>> mySet
+{1, 2, 3, 'aa', 9, 'c', 'a', 'b', 'test'}
+>>> mySet.add(3)
+>>> mySet
+{1, 2, 3, 'aa', 9, 'c', 'a', 'b', 'test'}
+>>> mySet('a')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'set' object is not callable
+>>> mySet.remove('a')
+>>> mySet
+{1, 2, 3, 'aa', 9, 'c', 'b', 'test'}
+>>> mySet.pop()
+1
+>>> mySet.pop()
+2
+>>> mySet
+{3, 'aa', 9, 'c', 'b', 'test'}
+>>> mySet.remove('z')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'z'
+>>> mySet.discard('z')
+>>> 
+
+
+
+
+
+myDict = {"name":"John","Age":10,"city":"Delhi"}

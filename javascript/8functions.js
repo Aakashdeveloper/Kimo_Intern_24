@@ -36,3 +36,4 @@ function add(a,b){
 let add = (a,b) => {return a+b}
 add(2,5)
 7
+
