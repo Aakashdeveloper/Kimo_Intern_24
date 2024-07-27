@@ -1,4 +1,4 @@
-#List  = ["apple","mango","banana"]
+List  = ["apple","mango","banana"]
 Tuple = (10,20,30)
 set = {1,2,3,4}
 dictionaries = {"name":"John","age":10}
