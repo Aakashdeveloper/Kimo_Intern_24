@@ -1,0 +1,63 @@
+{
+    "openapi":"3.0.0",
+    "info":{
+        "description":"This is api for restaurants",
+        "version":"__version__"
+    },
+    "tags":[
+        {
+            "name":"PUBLIC ROUTE",
+            "description":"Public Route"
+        }
+    ],
+    "paths":{
+        "/":{
+            "summary":"Testing Default Route",
+            "get":{
+                "description":"Testing Default Route",
+                "tags":["PUBLIC ROUTE"],
+                "responses":{
+                    "200":{
+                        "description":"Health Check"
+                    }
+                }
+            }
+        },
+        "/location":{
+            "summary":"Testing location route",
+            "get":{
+                "description":"Testing Location Route",
+                "tags":["PUBLIC ROUTE"],
+                "responses":{
+                    "200":{
+                        "description":"Location Route"
+                    }
+                }
+            }
+        },
+        "/details/{id}":{
+            "summary":"Getting Particular User Info",
+            "get":{
+                "description":"Getting Restaurants details",
+                "tags":["PUBLIC ROUTE"],
+                "parameters":[
+                    {
+                        "in":"path",
+                        "name":"id",
+                        "schema":{
+                            "type":"string"
+                        },
+                        "required":true,
+                        "description":"Id of the user"
+                    }
+                ],
+                "responses":{
+                    "200":{
+                        "description":"Getting rest details"
+                    }
+                }
+            }
+        }
+    }
+
+}

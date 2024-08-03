@@ -3,7 +3,13 @@ let app = express();
 let Mongo = require('mongodb')
 let port = 9110;
 let cors = require('cors')
+let swaggerUi = require('swagger-ui-express')
+let swaggerDocument = require('./swagger.json');
+let package = require('./package.json')
 let {dbConnect,getData,postData, updateData,deleteData} = require('./controller/dbContoller');
+
+swaggerDocument.info.version = package.version
+app.use('/api-doc',swaggerUi.serve,swaggerUi.setup(swaggerDocument))
 
 app.use(express.json())
 app.use(cors())
