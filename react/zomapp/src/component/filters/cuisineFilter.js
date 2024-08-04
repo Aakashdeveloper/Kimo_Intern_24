@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React from 'react';
 
-const url = "http://3.17.216.66:4000/filter"
+const url = "https://nodebackend-xprf.onrender.com/filter"
 
 
 const CuisineFilter = (props) => {

@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 import axios from 'axios';
 import DisplayOrder from './DisplayOrder';
 
-const url = "http://localhost:9811/orders"
+const url = "https://nodebackend-xprf.onrender.com/orders"
 
 const ViewOrder = () => {
 

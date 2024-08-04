@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 import './QuickSearch.css';
 import QuickDisplay from './QuickDisplay'
 
-const url = "http://3.17.216.66:4000/quicksearch"
+const url = "https://nodebackend-xprf.onrender.com/quicksearch"
 
 const QuickSearch = () => {
 

@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import './Search.css';
 
-const url = "http://3.17.216.66:4000"
+const url = "https://nodebackend-xprf.onrender.com"
 
 const Search = () => {
 
@@ -31,7 +31,7 @@ const Search = () => {
 
     const handleCity = (event) => {
         console.log(event.target.value)
-        fetch(`${url}/restaurant?stateId=${event.target.value}`,{method:'GET'})
+        fetch(`${url}/restaurants?stateId=${event.target.value}`,{method:'GET'})
         .then((res) => res.json())
         .then((data) => {
             setRestData(data)

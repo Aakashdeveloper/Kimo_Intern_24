@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import {useParams,useNavigate} from 'react-router-dom';
 
-const orderUrl = "http://localhost:9811/orders"
+const orderUrl = "https://nodebackend-xprf.onrender.com/orders"
 
 const PlaceOrder = ( ) => {
 

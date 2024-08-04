@@ -57,6 +57,94 @@
                     }
                 }
             }
+        },
+        "/placeOrder":{
+            "summary":"Getting Particular User Info",
+            "post":{
+                "description":"Getting Restaurants details",
+                "tags":["PUBLIC ROUTE"],
+                "requestBody":{
+                    "required":true,
+                    "content":{
+                        "application/json":{
+                            "schema":{
+                                "type":"object",
+                                "id":"string"
+                            },
+                            "example":{
+                                "name": "Rohit",
+                                "email": "rohit@gmail.com",
+                                "address": "Hom 65",
+                                "phone": 8934645457,
+                                "cost": 931,
+                                "menuItem": [
+                                    9,4,5
+                                ],
+                                "status": "Pending"
+                            }
+                        }
+                    }
+                },
+                "responses":{
+                    "200":{
+                        "description":"Getting rest details"
+                    }
+                }
+            }
+        },
+        "/updateOrder":{
+            "summary":"Getting Particular User Info",
+            "put":{
+                "description":"Getting Restaurants details",
+                "tags":["PUBLIC ROUTE"],
+                "requestBody":{
+                    "required":true,
+                    "content":{
+                        "application/json":{
+                            "schema":{
+                                "type":"object",
+                                "id":"string"
+                            },
+                            "example":{
+                                "_id":"66aef42cb5f85eb0370fe7ab",
+                                "status":"Delivered"
+                            }
+                        }
+                    }
+                },
+                "responses":{
+                    "200":{
+                        "description":"Getting rest details"
+                    }
+                }
+            }
+        },
+        "/deleteOrder":{
+            "summary":"Getting Particular User Info",
+            "delete":{
+                "description":"Getting Restaurants details",
+                "tags":["PUBLIC ROUTE"],
+                "requestBody":{
+                    "required":true,
+                    "content":{
+                        "application/json":{
+                            "schema":{
+                                "type":"object",
+                                "id":"string"
+                            },
+                            "example":{
+                                "_id":"66aef42cb5f85eb0370fe7ab",
+                                "status":"Delivered"
+                            }
+                        }
+                    }
+                },
+                "responses":{
+                    "200":{
+                        "description":"Getting rest details"
+                    }
+                }
+            }
         }
     }
 

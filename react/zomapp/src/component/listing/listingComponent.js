@@ -6,7 +6,7 @@ import ListingDisplay from './listingDisplay';
 import CuisineFilter from '../filters/cuisineFilter';
 import CostFilter from '../filters/costFilter'
 
-const base_url = "http://3.17.216.66:4000"
+const base_url = "https://nodebackend-xprf.onrender.com/"
 
 const Listing = () => {
 

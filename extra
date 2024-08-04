@@ -284,3 +284,10 @@ JSON web TOKEN
 pip install flask
 code
 
+render.com
+https://nodebackend-xprf.onrender.com/restaurants
+
+
+//make react build
+> go inside react app
+> npm run build

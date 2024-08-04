@@ -4,7 +4,7 @@ import axios from 'axios';
 import {Link} from 'react-router-dom';
 import { useSearchParams,useNavigate } from 'react-router-dom';
 
-const base_url = "http://3.17.216.66:4000";
+const base_url = "https://nodebackend-xprf.onrender.com/";
 
 const DetailDisplay = () => {
 
