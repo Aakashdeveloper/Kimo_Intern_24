@@ -1,0 +1,12 @@
+[
+    {
+        "cat_id":1,
+        "cat_name":"Electronics",
+        "imgurl":""
+    },
+    {
+        "cat_id":2,
+        "cat_name":"Cloths",
+        "imgurl":""
+    }
+]

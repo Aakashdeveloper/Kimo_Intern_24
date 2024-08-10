@@ -1,0 +1,30 @@
+[
+    {
+        "productId":1,
+        "catId":1,
+        "name":"Washing Machine",
+        "price":2300,
+        "imgUrl":""
+    },
+    {
+        "productId":2,
+        "catId":1,
+        "name":"TV",
+        "price":2300,
+        "imgUrl":""
+    },
+    {
+        "productId":3,
+        "catId":2,
+        "name":"Jeans",
+        "price":2300,
+        "imgUrl":""
+    },
+    {
+        "productId":4,
+        "catId":2,
+        "name":"Shirt",
+        "price":2300,
+        "imgUrl":""
+    }
+]
